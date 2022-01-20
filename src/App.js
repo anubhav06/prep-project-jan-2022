@@ -60,8 +60,9 @@ function App() {
           </div>
 
           <div>
-            TODO <br/>
-            TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO <br/>TODO
+            <br/><br/><br/><br/><br/><br/>
+            🗺️--- MAP TO COME HERE --- 🗺️ 
+            <br/><br/><br/><br/><br/><br/>
           </div>
           
         </div>

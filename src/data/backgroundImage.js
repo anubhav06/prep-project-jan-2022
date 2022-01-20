@@ -17,61 +17,65 @@ import Tornado from '../assets/images/Tornado.jpg'
 
 const Background = {
     Ash: {
-        background: `url(${Ash})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Ash})`,
+        backgroundSize: 'cover',
     },
     Clear: {
-        background: `url(${Clear})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Clear})`,
+        backgroundSize: 'cover',
     },
     Clouds: {
-        background: `url(${Clouds})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Clouds})`,
+        backgroundSize: 'cover',
     },
     Dust: {
-        background: `url(${Dust})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Dust})`,
+        backgroundSize: 'cover',
     },
     Fog: {
-        background: `url(${Fog})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Fog})`,
+        backgroundSize: 'cover',
     },
     Haze: {
-        background: `url(${Haze})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Haze})`,
+        backgroundSize: 'cover',
     },
     Mist: {
-        background: `url(${Mist})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Mist})`,
+        backgroundSize: 'cover',
     },
     Rain: {
-        background: `url(${Rain})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Rain})`,
+        backgroundSize: 'cover',
     },
     Shower: {
-        background: `url(${Shower})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Shower})`,
+        backgroundSize: 'cover',
     },
     Smoke: {
-        background: `url(${Smoke})` ,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Smoke})` ,
+        backgroundSize: 'cover',
     },
     Snow: {
-        background: `url(${Snow})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Snow})`,
+        backgroundSize: 'cover',
     },
     Squall: {
-        background: `url(${Squall})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Squall})`,
+        backgroundSize: 'cover',
     },
     Thunderstorm: {
-        background: `url(${Thunderstorm})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Thunderstorm})`,
+        backgroundSize: 'cover',
     },
     Tornado: {
-        background: `url(${Tornado})`,
-        backgroundSize: "cover"
+        backgroundImage: `url(${Tornado})`,
+        backgroundSize: 'cover',
     },
+    default:{
+        backgroundImage: 'grey',
+        backgroundSize: 'cover',
+    }
 
 };
 
