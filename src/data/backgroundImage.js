@@ -7,10 +7,10 @@ import Haze from '../assets/images/Haze.jpg'
 import Mist from '../assets/images/Mist.jpg'
 import Rain from '../assets/images/Rain.jpg'
 import Shower from '../assets/images/Shower.jpg'
-//import Smoke from '../assets/images/Smoke.jpg'
+import Smoke from '../assets/images/Smoke.jpg'
 import Snow from '../assets/images/Snow.jpg'
 import Squall from '../assets/images/Squall.jpg'
-import Thunderstorm from '../assets/images/Thunderstorm.gif'
+import Thunderstorm from '../assets/images/Thunderstorm.jpg'
 import Tornado from '../assets/images/Tornado.jpg'
 
 
@@ -53,13 +53,8 @@ const Background = {
         backgroundSize: "cover"
     },
     Smoke: {
-        background: `url(${Thunderstorm})`,
-        //backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        //width: '100vw',
-        //height: '100vh',
-        overflow: "hidden",
-        backgroundAttachment: "fixed"
+        background: `url(${Smoke})` ,
+        backgroundSize: "cover"
     },
     Snow: {
         background: `url(${Snow})`,
