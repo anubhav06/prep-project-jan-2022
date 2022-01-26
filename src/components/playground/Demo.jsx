@@ -4,7 +4,7 @@ import MapComponent from './MapComponent';
 
 function Demo() {
 
-  const weather = 'Snow'; 
+  const weather = 'Rain'; 
 
   return <div> 
 
